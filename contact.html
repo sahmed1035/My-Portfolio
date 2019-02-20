@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Welcome | Syeda's Page</title>
+    <title>Contact | Syeda's Page</title>
 
     <!-- Reset. -->
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -15,44 +15,46 @@
     <!--Materialize CSS-->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="icon" href="./assets/images/myicon.jpeg" type="image/jpeg" sizes="16x16">
 </head>
 
 <body>
 
-     <!-- Header holding navbar and name logo. -->
-  <div>
+    <!-- Header holding navbar and name logo. -->
+    <div>
         <header class="row header">
-          
+
             <nav class="nav black" role="navigation">
-              <div class="nav-wrapper container"><a href="index.html" id="logo-container"class="brand-logo " >SYEDA AHMED</a>
-                <ul class="right hide-on-med-and-down">
-                  <li><a href="https://www.linkedin.com/in/syeda-s-ahmed-607b89167/" target="new">LinkedIn</a></li>
-                  <li><a href="https://github.com/sahmed1035" target="new">GitHub</a></li>
-                  <li><a href="/My-Portfolio/assets/Resume_Syeda_Ahmed-2-20-19.pdf" download="syeda-ahmed-resume">Download My Resume</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-                </ul>
-    
-                <ul id="nav-mobile" class="sidenav">
-                  <li><a href="https://www.linkedin.com/in/syeda-s-ahmed-607b89167/" target="new">LinkedIn</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-                </ul>
-                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              </div>
+                <div class="nav-wrapper container"><a href="index.html" id="logo-container" class="brand-logo ">SYEDA
+                        AHMED</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="https://www.linkedin.com/in/syeda-s-ahmed-607b89167/" target="new">LinkedIn</a></li>
+                        <li><a href="https://github.com/sahmed1035" target="new">GitHub</a></li>
+                        <li><a href="/My-Portfolio/assets/Resume_Syeda_Ahmed-2-20-19.pdf" download="syeda-ahmed-resume">Download
+                                My Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                    <ul id="nav-mobile" class="sidenav">
+                        <li><a href="https://www.linkedin.com/in/syeda-s-ahmed-607b89167/" target="new">LinkedIn</a></li>
+                        <li><a href="https://github.com/sahmed1035" target="new">GitHub</a></li>
+                        <li><a href="/My-Portfolio/assets/Resume_Syeda_Ahmed-2-20-19.pdf" download="syeda-ahmed-resume">Download
+                                My Resume</a></li>
+                    </ul>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
             </nav>
-          
+
         </header>
-      </div>
-      <!-- Header div ends. -->
+    </div>
+    <!-- Header div ends. -->
 
 
     <div class="container" id="main-container">
@@ -84,8 +86,8 @@
                             <label for="formGroupExampleInput">Message:</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        <button type="reset" class="btn btn-primary">Reset</button>
+                        <button type="submit" class="btn btn-primary" id="btn-success">Submit</button>
+                        <button type="reset" class="btn btn-primary" id="btn-success">Reset</button>
                     </form>
                 </div>
             </div>
@@ -95,7 +97,7 @@
 
 
 
-    <!-- <Footer></Footer> -->
+    <!-- Footer-->
     <footer>
         <div class="container-fluid">
 
@@ -107,14 +109,10 @@
 
         </div>
     </footer>
-
-
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- my javascript -->
+    <script type="text/javascript" src="./assets/app.js"></script>
 </body>
 
 </html>
