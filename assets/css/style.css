@@ -5,7 +5,9 @@ body {
     color: #777777;
     
   }
-  
+  .material-icons {
+    padding-bottom: 1%;
+  }
   .card-img {
    width: 80%;
     margin: 0 auto;
