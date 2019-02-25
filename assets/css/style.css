@@ -4,14 +4,11 @@ body {
     line-height: 34px;
     color: #777777;
   }
-  .fa-linkedin-in {
-    margin-bottom: 30%;
-  }
 
   .card-img {
-   width: 80%;
+   width: 100%;
     margin: 0 auto;
-   height:80%;
+   height:100%;
   }
   
 #btn-success{
@@ -136,7 +133,7 @@ body {
     height: 30%;
     color: white;
     clear: both;
-    background-image: url("../images/resized_header_bg_AI.jpg");
+    background-image: url("../images/new-header_bg_AI.gif");
   }
   
   h3, h2 {

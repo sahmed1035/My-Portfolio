@@ -3,7 +3,7 @@
 # Project Title
 ## My-Portfolio
 Bootstrap-Portfolio/Assignment-2-a
-Site Link: [Syeda Ahmed]"https://sahmed1035.github.io/My-Portfolio/index.html"
+Site Link: "https://sahmed1035.github.io/My-Portfolio/index.html"
 Updated with bootstrap and materialize
 Used Bootstrap, materialize as well as custom css stylesheet to build this basic website to showcase my projects. 
 
